@@ -1,0 +1,3 @@
+1) Napisać krótki tekst do zakładki 'O nas'
+2) Menu boczne 'Zbiory': Top 5 , Nowości, Literatura polska, Literatura obca, Dla dzieci, Biografie, Kryminał, Fantastyka
+3) Umieścić zdjęcia okładek książek w tabeli 'Top 5'
