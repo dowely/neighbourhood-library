@@ -1,4 +1,19 @@
-1) Napisać krótki tekst do zakładki 'O nas'
+  --- HTML ---
+
+gotowe: 1) Napisać krótki tekst do zakładki 'O nas'
 gotowe: 2) Menu boczne 'Zbiory': Top 5 , Nowości, Literatura polska, Literatura obca, Dla dzieci, Biografie, Kryminał, Fantastyka
 3) Umieścić zdjęcia okładek książek w tabeli 'Top 5'
-- W centralnym miejscu witryny umieścić zawartości podstron w formie stosu przesłaniających się kart, które będą przełączane między sobą menu głównym
+4) Zakodować strukturę artykułu dot. koordynatora x3
+5) Zakodować strukturę artykułu dot. wydarzenia x2
+6) Zakodować strukturę formularza
+7) Zakodować strukturę artykułu dot. książek wykorzystując <dl> description list, po 3 książki z każdej kategorii czyli x18, rodzaj okładki, ilość stron, iban, rok wydania -> jako wydanie:, recenzja z tyłu okładki, zdjęcie okładki, autor/autorzy, tytuł
+8) Zakodować strukturę nagłówka strony -> nazwa, dewiza, ikonki, baner z widokiem Brzeska przechodzący w biel pod tekstem i ikonami -> background image
+9) Wydzielić artykuły do osobnych plików i podlinkować je w iframe'ie osadzonym w elemencie <section> w <main>
+10*) Jako zadanie z gwiazdką możnaby na zdjęciu 'O nas' zamapować koordynatorów <map> i <area>
+
+  --- CSS ---
+
+
+  --- JavaScript ---
+
+1)  W centralnym miejscu witryny umieścić zawartości podstron w formie stosu przesłaniających się kart, które będą przełączane między sobą menu głównym - raczej nie - zamiast tego można by zastosować element <iframe>
