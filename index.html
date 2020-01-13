@@ -7,6 +7,14 @@
     <title>Biblioteka Sąsiedzka</title>
     <style>
       body {background-color: ivory;}
+      table, th, td {
+        border: 2px solid black;
+        border-spacing: 5px;
+        /*border-collapse: collapse;*/
+      }
+      th, td {
+        padding: 5px;
+      }
     </style>
   </head>
 
@@ -15,7 +23,7 @@
 
     <!-- Top nav-menu -->
     <nav>
-      <ul>
+      <ul style="list-style-type: square;">
         <li><a href="index.html">Strona Główna</a></li>
         <li><a href="#">O nas</a></li>
         <li><a href="#">Wydarzenia</a></li>
@@ -27,7 +35,7 @@
 
     <!-- Side nav-menu -->
     <nav>
-      <ul>
+      <ul style="list-style-type: circle;">
         <li><a href="#">Top 5</a></li>
         <li><a href="#">Nowości</a></li>
         <li><a href="#">Literatura polska</a></li>
@@ -42,7 +50,7 @@
 
     <!-- Tabela Top 5 -->
 
-    <table style="border: 1px solid black">
+    <table style="width:100%">
       <caption>Top 5 najchętniej wypożyczanych książek</caption>
 
       <thead>
@@ -51,7 +59,7 @@
           <th>Okładka</th>
           <th>Tytuł</th>
           <th>Autor</th>
-          <th colspan="2" style="border: 1px solid black">Gatunek</th>
+          <th colspan="2">Gatunek</th>
         </tr>
       </thead>
 
@@ -116,7 +124,7 @@
     
       <tfoot>
         <tr>
-          <td>Dane za rok 2019</td>
+          <td colspan="6">*Dane za rok 2019</td>
         </tr>
       </tfoot>
     </table>
@@ -126,7 +134,6 @@
     <!-- O Nas  -->
 
     <div>
-      <h3 title="Laureatka Nagrody Nobla">Wisława Szymborska</h3>
       <h4><cite>Muzeum</cite> (fragment)</h4>
       <pre>
         Z braku wieczności zgromadzono
@@ -134,6 +141,7 @@
         Omszały woźny drzemie słodko
         zwiesiwszy wąsy nad gablotką.
       </pre>
+      <address title="Laureatka Nagrody Nobla">Wisława Szymborska</address>
       <img src="https://static.turbosquid.com/Preview/2019/07/22__15_53_42/QuillBrightFeatherInkSet3dsmodel000.jpg23EB5978-A848-4A17-B92F-013ADE5D0602Zoom.jpg" alt="ilustration of a quil" width="150" height="150">
       <hr>
       <img src="https://globalacn.org/wp-content/uploads/2019/09/banner-diverse-group-of-people-2.jpg" alt="group of people" width="400" style="float:left;padding-right:20px;">
@@ -141,6 +149,12 @@
     </div>
 
     <!-- O nas ends -->
+
+    <!-- Book feature -->
+
+    <a href="books.html" target="_blank">Nasze książki</a>
+
+    <!-- Book feature ends -->
 
   </body>
 
