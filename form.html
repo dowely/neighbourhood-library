@@ -1,0 +1,43 @@
+<form>
+
+  <fieldset>
+  <legend>Twoje Dane:</legend>
+
+    <h4>Imię</h4>
+    <input type="text" name="firstName">
+    <h4>Nazwisko</h4>
+    <input type="text" name="lastName">
+    <h4>Adres</h4>
+    <input type="textarea" name="address">
+    <!-- adres email i nr telefonu z walidacją -->
+
+  </fieldset>
+
+  <fieldset>
+  <legend>Wyszukaj Książkę:</legend>
+
+    <h4>Autor:</h4>
+    <input type="text" name="author">
+    <h4>Tytuł:</h4>
+    <input type="text" name="title">
+    <h4>Kategoria:</h4> <!-- dropdown list -->
+    <h4>Liczba stron:</h4> <!-- przedział od-do ze strzałkami inkrementacyjnymi -->
+    <button>Szukaj</button>
+
+  </fieldset>
+
+  <fieldset>
+  <legend>Okres Wypożyczenia:</legend>
+
+    <input type="radio" name="time" value="7">tydzień
+    <input type="radio" name="time" value="14" checked="checked">dwa tygodnie
+    <input type="radio" name="time" value="30">miesiąc
+    <input type="radio" name="time" value="90">dwa miesiące
+
+  </fieldset>
+
+  <input type="submit" value="Generuj Rewers">
+
+</form>
+
+<!-- Tutaj kontener z wynikami wyszukiwania książek, przy każdym wyniku przycisk 'dodaj'  -->

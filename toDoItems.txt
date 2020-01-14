@@ -12,8 +12,11 @@ gotowe: 3) Umieścić zdjęcia okładek książek w tabeli 'Top 5'
 10*) Jako zadanie z gwiazdką możnaby na zdjęciu 'O nas' zamapować koordynatorów <map> i <area> dodając tool-tip
 
   --- CSS ---
+  1) Umieścić na stronie formularza skrypt, który po wysłaniu wygeneruję piękny rewers old-school'owy (pominąć atrybut 'action' -> strona wysyła do siebie samej)
 
 
   --- JavaScript ---
 
 1)  W centralnym miejscu witryny umieścić zawartości podstron w formie stosu przesłaniających się kart, które będą przełączane między sobą menu głównym - raczej nie - zamiast tego można by zastosować element <iframe>
+
+2) W formularzu kliknięcie przycisku 'szukaj' spowoduje wyświetlenie tabeli z książką lub listą książek pasujących do parametrów wyszukiwania, obok danej książki znajduje się przycisk dodaj, który wypełnia brakujące pola wyszukiwania i można generować rewers(w osobnej zakładce) jeżeli dane czytelnika są wprowadzone 
