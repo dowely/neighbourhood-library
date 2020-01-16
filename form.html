@@ -1,4 +1,4 @@
-<form>
+<form autocomplete="off">
 
   <fieldset>
   <legend>Twoje Dane:</legend>
@@ -8,31 +8,54 @@
     <h4>Nazwisko</h4>
     <input type="text" name="lastName">
     <h4>Adres</h4>
-    <input type="textarea" name="address">
-    <!-- adres email i nr telefonu z walidacją -->
+    <textarea name="address" rows="3" cols="30" placeholder="Wystarczy, że podasz miejscowość i nazwę ulicy..."></textarea>
+    <h4>Adres E-mail</h4>
+    <input type="email" name="email" size="30">
+    <h4>Telefon kontaktowy</h4>
+    +48 <input type="tel" name="phone" maxlength="9">
 
   </fieldset>
 
   <fieldset>
-  <legend>Wyszukaj Książkę:</legend>
+  <legend>Wyszukaj Książkę</legend>
 
-    <h4>Autor:</h4>
-    <input type="text" name="author">
-    <h4>Tytuł:</h4>
+    <img style="float:right" src="./images/book_icon.png" alt="a book icon" width="250">  
+
+    <h4>Tytuł</h4>
     <input type="text" name="title">
-    <h4>Kategoria:</h4> <!-- dropdown list -->
-    <h4>Liczba stron:</h4> <!-- przedział od-do ze strzałkami inkrementacyjnymi -->
-    <button>Szukaj</button>
+    <h4>Autor</h4>
+    <input type="text" name="author">
+    <h4>Kategoria</h4>
+    <select name="kategoria">
+      <option value="" selected></option>
+      <option value="lit_pol">Literatura polska</option>
+      <option value="lit_obca">Literatura obca</option>
+      <option value="lit_obca">Kryminał</option>
+      <option value="lit_obca">Fantastyka</option>
+      <option value="lit_obca">Dla dzieci</option>
+      <option value="lit_obca">Biografie</option>
+    </select>
+    <input type="checkbox" name="twarda" id="cover">
+    <label for="cover">twarda okładka</label>
+    <h4>Liczba stron</h4> 
+    <p>Nie więcej niż</p>
+    <input type="range" name="num_of_pages" value="200" min="50" max="600" step="50" oninput="book_thickness.innerHTML=num_of_pages.value + ' stron'"><br>
+    <output name="book_thickness" for="num_of_pages">200 stron</output><br>
+    <input type="button" value="Szukaj">
 
   </fieldset>
 
   <fieldset>
   <legend>Okres Wypożyczenia:</legend>
 
-    <input type="radio" name="time" value="7">tydzień
-    <input type="radio" name="time" value="14" checked="checked">dwa tygodnie
-    <input type="radio" name="time" value="30">miesiąc
-    <input type="radio" name="time" value="90">dwa miesiące
+    <input type="radio" name="time" id="week" value="7">
+    <label for="week">tydzień</label>
+    <input type="radio" name="time" id="2weeks" value="14" checked="checked">
+    <label for="2weeks">dwa tygodnie</label>
+    <input type="radio" name="time" id="month" value="30">
+    <label for="month">miesiąc</label>
+    <input type="radio" name="time" id="2months" value="90">
+    <label for="2months">dwa miesiące</label>
 
   </fieldset>
 
