@@ -3,8 +3,8 @@
 gotowe: 1) Napisać krótki tekst do zakładki 'O nas'
 gotowe: 2) Menu boczne 'Zbiory': Top 5 , Nowości, Literatura polska, Literatura obca, Dla dzieci, Biografie, Kryminał, Fantastyka
 gotowe: 3) Umieścić zdjęcia okładek książek w tabeli 'Top 5'
-4) Zakodować strukturę artykułu dot. koordynatora x3
-5) Zakodować strukturę artykułu dot. wydarzenia x2
+4) Zakodować strukturę artykułu dot. koordynatorów
+5) Zakodować strukturę artykułu dot. wydarzeń
 gotowe: 6) Zakodować strukturę formularza z grafiką książki
 7) Powielić artykuły dot. książek 2/18 
 8) Zakodować strukturę nagłówka strony -> nazwa, dewiza, ikonki, baner z widokiem Brzeska przechodzący w biel pod tekstem i ikonami -> background image
@@ -14,6 +14,11 @@ gotowe: 6) Zakodować strukturę formularza z grafiką książki
   --- CSS ---
   1) Umieścić na stronie formularza skrypt, który po wysłaniu wygeneruję piękny rewers old-school'owy (pominąć atrybut 'action' -> strona wysyła do siebie samej)
 
+  2) Strona z wydarzeniami to 4 zdjęcia rozmieszczone na siatce 2x2 lub 1 duże + 3 małe obok (a'la interia) lub 4 małe, jedno pod drugim - to wszystko w zależności od szerokości ekranu. Najechanie na zdjęcie kursorem powoduje jego przyciemnienie i pojawienie się krótkiego tekstu na temat tego wydarzenia
+
+  3) Styl strony z koordynatorami na wzór https://www.w3schools.com/howto/howto_css_about_page.asp
+
+  4) Styl strony głównej na wzór https://www.w3schools.com/howto/howto_make_a_website.asp <-- ten szary
 
   --- JavaScript ---
 
