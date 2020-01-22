@@ -7,9 +7,8 @@ gotowe: 3) Umieścić zdjęcia okładek książek w tabeli 'Top 5'
 5) Zakodować strukturę artykułu dot. wydarzeń
 gotowe: 6) Zakodować strukturę formularza z grafiką książki
 7) Powielić artykuły dot. książek 2/18 
-8) Zakodować strukturę nagłówka strony -> nazwa, dewiza, ikonki, baner z widokiem Brzeska przechodzący w biel pod tekstem i ikonami -> background image
-9) Wydzielić artykuły do osobnych plików i podlinkować je w iframe'ie osadzonym w elemencie <section> w <main>
-10*) Jako zadanie z gwiazdką możnaby na zdjęciu 'O nas' zamapować koordynatorów <map> i <area> dodając tool-tip
+gotowe: 8) Zakodować strukturę nagłówka strony -> nazwa, dewiza, ikonki, background image
+9) Wydzielić artykuły do osobnych plików i podlinkować je w iframe'ie osadzonym w elemencie <article> w <main>
 
   --- CSS ---
   1) Umieścić na stronie formularza skrypt, który po wysłaniu wygeneruję piękny rewers old-school'owy (pominąć atrybut 'action' -> strona wysyła do siebie samej)
