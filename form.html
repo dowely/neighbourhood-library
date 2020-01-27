@@ -1,3 +1,15 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+
+<head>
+  <title>Rezerwacja książki</title>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="styles/form.css" type="text/css" />
+</head>
+
+<body>
+
 <form autocomplete="off">
 
   <fieldset>
@@ -8,18 +20,18 @@
     <h4>Nazwisko</h4>
     <input type="text" name="lastName">
     <h4>Adres</h4>
-    <textarea name="address" rows="3" cols="30" placeholder="Wystarczy, że podasz miejscowość i nazwę ulicy..."></textarea>
+    <textarea name="address" placeholder="Wystarczy, że podasz miejscowość i nazwę ulicy..."></textarea>
     <h4>Adres E-mail</h4>
     <input type="email" name="email" size="30">
     <h4>Telefon kontaktowy</h4>
     +48 <input type="tel" name="phone" maxlength="9">
+    
+    <img style="float:right" src="./images/book_icon.png" alt="a book icon" width="250">
 
   </fieldset>
 
-  <fieldset>
-  <legend>Wyszukaj Książkę</legend>
-
-    <img style="float:right" src="./images/book_icon.png" alt="a book icon" width="250">  
+  <fieldset class="search">
+  <legend>Wyszukaj Książkę</legend>  
 
     <h4>Tytuł</h4>
     <input type="text" name="title">
@@ -37,10 +49,13 @@
     </select>
     <input type="checkbox" name="twarda" id="cover">
     <label for="cover">twarda okładka</label>
-    <h4>Liczba stron</h4> 
-    <p>Nie więcej niż</p>
-    <input type="range" name="num_of_pages" value="200" min="50" max="600" step="50" oninput="book_thickness.innerHTML=num_of_pages.value + ' stron'"><br>
-    <output name="book_thickness" for="num_of_pages">200 stron</output><br>
+    <div class="page_count">
+      <h4>Liczba stron</h4> 
+      <p>Nie więcej niż</p>
+      <input type="range" name="num_of_pages" value="200" min="50" max="600" step="50" oninput="book_thickness.innerHTML=num_of_pages.value + ' stron'"><br>
+      <output name="book_thickness" for="num_of_pages">200 stron</output><br>
+    </div>
+    
     <input type="button" value="Szukaj">
 
   </fieldset>
@@ -62,5 +77,11 @@
   <input type="submit" value="Generuj Rewers">
 
 </form>
+
+</body>
+
+</html>
+
+
 
 <!-- Tutaj kontener z wynikami wyszukiwania książek, przy każdym wyniku przycisk 'dodaj'  -->

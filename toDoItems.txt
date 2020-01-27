@@ -8,7 +8,7 @@ gotowe: 3) Umieścić zdjęcia okładek książek w tabeli 'Top 5'
 gotowe: 6) Zakodować strukturę formularza z grafiką książki
 7) Powielić artykuły dot. książek 2/18 
 gotowe: 8) Zakodować strukturę nagłówka strony -> nazwa, dewiza, ikonki, background image
-9) Wydzielić artykuły do osobnych plików i podlinkować je w iframe'ie osadzonym w elemencie <article> w <main>
+gotowe: 9) Wydzielić artykuły do osobnych plików i podlinkować je w iframe'ie osadzonym w elemencie <article> w <main>
 
   --- CSS ---
   1) Umieścić na stronie formularza skrypt, który po wysłaniu wygeneruję piękny rewers old-school'owy (pominąć atrybut 'action' -> strona wysyła do siebie samej)
@@ -21,6 +21,4 @@ gotowe: 8) Zakodować strukturę nagłówka strony -> nazwa, dewiza, ikonki, bac
 
   --- JavaScript ---
 
-1)  W centralnym miejscu witryny umieścić zawartości podstron w formie stosu przesłaniających się kart, które będą przełączane między sobą menu głównym - raczej nie - zamiast tego można by zastosować element <iframe>
-
-2) W formularzu kliknięcie przycisku 'szukaj' spowoduje wyświetlenie tabeli z książką lub listą książek pasujących do parametrów wyszukiwania, obok danej książki znajduje się przycisk dodaj, który wypełnia brakujące pola wyszukiwania i można generować rewers(w osobnej zakładce) jeżeli dane czytelnika są wprowadzone 
+1) W formularzu kliknięcie przycisku 'szukaj' spowoduje wyświetlenie tabeli z książką lub listą książek pasujących do parametrów wyszukiwania, obok danej książki znajduje się przycisk dodaj, który wypełnia brakujące pola wyszukiwania i można generować rewers(w osobnej zakładce) jeżeli dane czytelnika są wprowadzone 
